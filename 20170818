@@ -7,3 +7,10 @@ document.write("this is my first vbscript")
 </script>
 </bod>
 </html>
+
+IE->F12->document mode IE5-> 
+now we can see the output of the code we wrote!
+
+So, As I wrote here:
+this is my first vbscript.
+
