@@ -1,4 +1,4 @@
-VBScript showing hello world
+VBScript showing hello world in client.
 
 <html>
 <body>
@@ -13,4 +13,66 @@ now we can see the output of the code we wrote!
 
 So, As I wrote here:
 this is my first vbscript.
+
+So this is my second vbscript:
+
+<html>
+<body>
+<script type="text/vbscript">
+Dim a
+a = "ni hao ma"
+b = 123
+i = 1
+alert(a & b)
+Do while(i < 10)
+document.write(i)
+document.write("</br>")
+i = i + 1
+Loop
+document.write("---------------------")
+document.write("</br>")
+Dim b
+b = 10
+
+Do until(b = 1)
+document.write(b)
+document.write("</br>")
+b = b - 1
+Loop
+
+document.write(a)
+document.write("this is an actionscript!")
+</script>
+</body>
+</html>
+
+After rendered by browser, it is like this:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+---------------------
+10
+9
+8
+7
+6
+5
+4
+3
+2
+ni hao mathis is an actionscript! 
+
+That looks cool, is it?
+So we can use almost everything about VB6.0 in the vbscript. But infact it is abondoned by microsoft. Why is it? I do not know.
+We can see we must use the document mode of the browser 5 IE emulation to run these scripts. So it is really a funny thing for us
+to do these old things.
+Well. Seems it is having the Do Loop which even you did not know how many times you should loop. And if you write the while and
+until in different places the results are also changing as if you wrote after DO, it will at least run once. But if you wrote it
+after Loop, it will run just like For scentences.
 
